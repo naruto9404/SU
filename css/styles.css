@@ -1,0 +1,186 @@
+body {}
+
+#title  {
+  background-color: #ff4c68;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 80px;
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 4.5rem;
+  font-weight: 100;
+}
+
+
+
+.container-fluid {
+  padding: 3% 15% ;
+
+
+
+}
+
+p ,h2{
+  color:black;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+}
+
+
+.subhead {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 0 0 4.5rem;
+  color: white;
+  text-decoration: none;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align:center;
+  font-family: 'Anton', sans-serif;
+
+
+  padding: 60px 60px;
+
+
+}
+.end {
+  font-size: 80px;
+  color:white;
+  margin-bottom: 50px;
+
+
+
+}
+.btn-lg {
+  font-family:'Montserrat', sans-serif;
+
+  margin: 5% 3% 5% 0;
+}
+
+
+
+.title-img {
+  width: 32%;
+  position: absolute;
+  margin-right: 40px;
+  transform: rotate(23deg);
+}
+#footer {
+  text-align: center;
+  padding-top:80px;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  size: 45%;
+  position: sticky;
+  margin-left: 170px;
+  color: white;
+  padding: 0 0 4.5rem;
+}
+
+@media (max-width:1000px){
+  .title-img{
+    transform:rotate(0deg);
+    position: static;
+    width:90%;
+  }
+  #title {
+    text-align: center;
+  }
+
+}
+#mc{
+  padding-top: 40px;
+}
+.nav-item {
+  padding: 0 18px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#features {
+  font-weight: bold;
+  padding: 7% 9%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+
+}
+
+
+.easy {
+  margin-left: 40px;
+  padding: auto;
+}
+
+
+
+.re:hover {
+  color: #ff4c68;
+}
+
+
+
+.col-lg-4 {
+  text-align: center;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.sniff {
+  font-size: 60px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: white;
+}
+
+.kutta {
+  padding-top: 0;
+  padding-bottom: 80px;
+  margin-top: 50px;
+}
+.aot{
+  width:90%;
+}
+.col-lg-3 {
+  text-align: center;
+}
+
+.fav {
+  padding: 40px;
+  color:black;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#pricing {
+  padding:100px;
+}
+.col-sm-12 {
+  padding:40px;
+
+}
+
+.fb {
+  padding:14px;
+}
